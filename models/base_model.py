@@ -11,9 +11,9 @@ class BaseModel:
         """
             instantiation of new BaseModel Class
         """
-        if kwargs:
-            self.__set_attributes(kwargs)
-        else:
+        # if kwargs:
+           # self.__set_attributes(kwargs)
+        # else:
             self.id = str(uuid4())
             self.created_at = datetime.utcnow()
 

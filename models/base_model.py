@@ -17,7 +17,7 @@ class BaseModel:
             self.id = str(uuid4())
             self.created_at = datetime.utcnow()
 
-   def save(self):
+    def save(self):
         """
             updates attribute updated_at to current time
         """

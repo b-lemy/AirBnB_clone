@@ -7,7 +7,7 @@ from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ Amenity class """
+    """ State class """
 
     name = ""
 

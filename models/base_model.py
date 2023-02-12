@@ -12,15 +12,15 @@ class BaseModel:
             instantiation of new BaseModel Class
         """
         # if kwargs:
-           # self.__set_attributes(kwargs)
+        # self.__set_attributes(kwargs)
         # else:
-            self.id = str(uuid4())
-            self.created_at = datetime.utcnow()
+        self.id = str(uuid4())
+        self.created_at = datetime.utcnow()
 
     def save(self):
         """
             updates attribute updated_at to current time
         """
         self.updated_at = datetime.utcnow()
-        models.storage.new(self)
-        models.storage.save()
+        # models.storage.new(self)
+        # models.storage.save()

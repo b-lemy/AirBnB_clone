@@ -12,10 +12,13 @@ class HBNBCommand(cmd.Cmd):
     Command Line Interpreter
     """
     prompt = '(hbnb)'
+
     def do_quit(self, line):
+
         """
           quit: quit USAGE: Command to quit the program
         """
+
         return True
 
     def do_EOF(self, line):

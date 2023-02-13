@@ -5,7 +5,7 @@
 """
 
 
-class User:
+class User(BaseModel):
     """
       User class
     """

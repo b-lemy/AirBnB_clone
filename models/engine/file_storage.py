@@ -18,16 +18,15 @@ class FileStorage:
     existed in this function. Uderstanding this class is the
     crucial part of the project
     """
-
     __file_path = "file.json"
     __objects = {}
-    
-     def all(self):
-         """
+
+    def all(self):
+        """
           Return the dictionary representation of the
           instances
-         """
-         return FileStorage.__objects
+        """
+        return FileStorage.__objects
 
     def new(self, obj):
         """To set in instances in the __objects dictionary"""

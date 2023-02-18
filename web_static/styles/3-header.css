@@ -1,5 +1,4 @@
 header{
-<<<<<<< HEAD
     background-color:white;
     height: 70px;
     width: 100%;
@@ -13,9 +12,4 @@ header{
     height: 70px; /* image height */
     display: inline-block; /* so that it behaves like the img element */
     margin-left: 20px;
-=======
-    background-color:#FF0000;
-    height: 70px;
-    width: 100%;
->>>>>>> 98bea0e00277239619fb8d8d60b07160c4d32b83
 }

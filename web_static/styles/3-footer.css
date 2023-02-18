@@ -1,9 +1,16 @@
 footer{
+<<<<<<< HEAD
         background-color:white;
+=======
+        background-color:#00FF00;
+>>>>>>> 98bea0e00277239619fb8d8d60b07160c4d32b83
         height: 60px;
         width: 100%;
         position:fixed;
         bottom: 0 ;
         text-align: center;
+<<<<<<< HEAD
         border-top: 1px solid #CCCCCC;
+=======
+>>>>>>> 98bea0e00277239619fb8d8d60b07160c4d32b83
  }

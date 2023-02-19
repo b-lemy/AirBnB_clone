@@ -9,5 +9,7 @@ body{
 
 .container{
     max-width: 1000px;
+    /*background: #FF0000;*/
     margin: 30px auto 30px auto;
+    /*overflow: auto;*/
 }
